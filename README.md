@@ -23,3 +23,5 @@ git clone https://github.com/jupyterlab/jupyterlab_server.git
 cd jupyterlab_server
 pip install -e .
 ```
+
+test
