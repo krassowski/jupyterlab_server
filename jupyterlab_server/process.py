@@ -26,6 +26,10 @@ except ImportError:
     pty = None  # type:ignore[assignment]
 
 
+# for backward compatibility
+list2cmdline = shlex.join
+
+
 def which(command: str, env: dict[str, str] | None = None) -> str:
     """Get the full path to a command.
 
